@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="SpringIOC" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.13.RELEASE" />
+          <element id="library" level="project" name="aspectj-1.8.13" />
+        </element>
       </element>
     </root>
   </artifact>

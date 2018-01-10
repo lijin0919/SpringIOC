@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="parent" class="继承.Parent">
+        <property name="message1" value="Hello World!1"/>
+        <property name="message2" value="Hello World!2"/>
+    </bean>
+
+    <bean id="son" class="继承.Son" parent="parent">
+        <property name="message1" value="son1"/>
+        <property name="message2" value="son1"/>
+    </bean>
+</beans>

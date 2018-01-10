@@ -9,6 +9,7 @@ public class SingletonTest {
         HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
         objA.setMessage("I'm object A");
         System.out.println(objA.getMessage());
+
         HelloWorld objB = (HelloWorld) context.getBean("helloWorld");
         System.out.println(objB.getMessage());
     }

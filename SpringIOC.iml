@@ -17,6 +17,14 @@
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
           <file>file://$MODULE_DIR$/src/singleton.xml</file>
           <file>file://$MODULE_DIR$/src/prototype.xml</file>
+          <file>file://$MODULE_DIR$/src/di-config.xml</file>
+          <file>file://$MODULE_DIR$/src/auto-di-config.xml</file>
+          <file>file://$MODULE_DIR$/src/list-config.xml</file>
+          <file>file://$MODULE_DIR$/src/anno-auto-di-config.xml</file>
+          <file>file://$MODULE_DIR$/src/Qualifier-auto-di-config.xml</file>
+          <file>file://$MODULE_DIR$/src/js-config.xml</file>
+          <file>file://$MODULE_DIR$/src/AOP1-config.xml</file>
+          <file>file://$MODULE_DIR$/src/AOP2-config.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -29,5 +37,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.13.RELEASE" level="project" />
+    <orderEntry type="library" name="aspectj-1.8.13" level="project" />
+    <orderEntry type="library" name="aspectjrt-1.8.13" level="project" />
   </component>
 </module>
